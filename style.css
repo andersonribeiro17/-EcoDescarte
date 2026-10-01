@@ -100,4 +100,82 @@
     flex: 0 0 110px;
     width: 110px;
     margin-left: auto;
+}/* Ajuste responsivo da seção da cartilha */
+@media (max-width: 700px) {
+
+    section#cartilha {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    section#cartilha .wrap {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .download-box {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    .download-info {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .download-info span {
+        width: 100%;
+        max-width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+        text-align: center;
+    }
+
+    .download-info strong,
+    .download-info small {
+        display: block;
+        max-width: 100%;
+        overflow-wrap: break-word;
+    }
+
+    .download-info .btn {
+        align-self: center;
+    }
+
+    .qr-area {
+        width: auto;
+        max-width: 100%;
+        flex: none;
+        margin: 0;
+        align-self: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .qr-code {
+        width: 90px !important;
+        height: 90px !important;
+        max-width: 90px !important;
+        max-height: 90px !important;
+        padding: 6px;
+        box-sizing: border-box;
+    }
 }
